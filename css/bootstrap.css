@@ -4333,7 +4333,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  
 }
 
 .navbar .container,
@@ -4411,12 +4411,13 @@ input[type="button"].btn-block {
 }
 
 .navbar-toggler-icon {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  content: "";
-  background: 50% / 100% 100% no-repeat;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: 50% / 100% 100% no-repeat;
+    background-color: #878787;
 }
 
 .navbar-nav-scroll {
