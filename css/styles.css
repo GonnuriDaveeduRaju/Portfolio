@@ -856,12 +856,7 @@ input[type='checkbox'] {
 /******************/
 /*     Footer     */
 /******************/
-.footer {
-	padding-top: 6.25rem;
-	padding-bottom: 2rem;
-	background-color: #24262a;
-	text-align: center;
-}
+
 
 .footer a {
 	text-decoration: none;
@@ -1117,18 +1112,8 @@ a:hover.back-to-top {
 		height: 760px;
 	}
 	
-	.split .area-1 {
-		height: 100%;
-		width: 50%;
-		display: inline-block;
-	}
-	
-	.split .area-2 {
-		height: 100%;
-		width: 50%;
-		display: inline-block;
-		vertical-align: top;
-	}
+
+
 
 	.split .text-container {
 		width: 400px;
@@ -1245,9 +1230,7 @@ a:hover.back-to-top {
 
 
 	/* Details */
-	.split {
-		height: 700px;
-	}
+
 
 	.split .text-container {
 		width: 460px;
