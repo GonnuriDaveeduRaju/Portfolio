@@ -33,21 +33,36 @@
          height: 557px;
      }
 
-     .split .area-2 {
-         height: 57%;
-         width: 50%;
-         display: inline-block;
-         vertical-align: top;
+         .split .area-1,
+         .split .area-2 {
+             height: 50%;
+             width: 50%;
+             display: inline-block;
+             vertical-align: top;
+         }
+
+     /* ✅ Mobile Responsive */
+     @media (max-width: 768px) {
+         .split {
+             height: auto; /* let content decide height */
+         }
+
+             .split .area-1,
+             .split .area-2 {
+                 width: 100%; /* full width on mobile */
+                 display: block; /* stack vertically */
+                 height: auto; /* adjust automatically */
+             }
      }
-     .split .area-1 {
-         height: 57%;
-         width: 50%;
-         display: inline-block;
-     }
+
      .footer {
          padding-top: 1.25rem;
-         padding-bottom: 1rem;
+         padding-bottom: 2rem;
          text-align: center;
+     }
+     .basic-1 {
+         padding-top: 2.75rem;
+         padding-bottom: 1.25rem;
      }
  </style>    
 </head>
